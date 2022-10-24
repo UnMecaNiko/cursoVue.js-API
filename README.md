@@ -55,6 +55,14 @@ Con `vue ui` se puede generar una interfaz para administrar todas las opciones d
 - **src/components** → Esta carpeta contendrá todos los componentes hechos en Vue.js que utilizaremos en nuestro proyecto. Esta carpeta se puede estructurar como sea, se pueden tener subcarpetas, por ejemplo.
 
 
+# Built-in Components
+
+Para aplicar estilos css específicos para cada componente generalmente lo que se hace es separarlos en archivos Vue distintos y usar la propiedad `scoped`. `style scoped`
+
+`<!-- Add "scoped" attribute to limit CSS to this component only -->`
+
+Así se pueden hacer clases con el mismo nombre o editar tags predeterminados sin afectar los demás componente
+
 # Fuentes de información
 
 - [Installation | Vue CLI](https://cli.vuejs.org/guide/installation.html)
