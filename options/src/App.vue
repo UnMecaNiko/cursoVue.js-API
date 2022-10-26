@@ -1,6 +1,5 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Esta es mi primera app con VueJs" />
   <component :is="componente"></component>
 </template>
 

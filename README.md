@@ -63,6 +63,8 @@ Para aplicar estilos css específicos para cada componente generalmente lo que s
 
 Así se pueden hacer clases con el mismo nombre o editar tags predeterminados sin afectar los demás componente
 
+Los estilos que se escriben en el archivo `App.vue` aplican de forma global para todo el proyecto
+
 # Fuentes de información
 
 - [Installation | Vue CLI](https://cli.vuejs.org/guide/installation.html)
